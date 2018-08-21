@@ -1,6 +1,6 @@
 def my_select(collection)
   i = 0
-array = []
+  array = []
   while i < collection.length
     array.push(yield collection[i])
     i += 1
