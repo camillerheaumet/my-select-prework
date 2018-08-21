@@ -5,5 +5,5 @@ def my_select(collection)
     array.push(yield collection[i])
     i += 1
   end
-   puts array
+   array
 end
